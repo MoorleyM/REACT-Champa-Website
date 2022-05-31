@@ -1,11 +1,10 @@
-import { Outlet } from 'react-router-dom'
+import './navbar.styles.scss'
 
 const Navbar = () => {
     return (
-        <nav>
+        <div className='navbar'>
             <h1>Navbar</h1>
-            <Outlet />
-        </nav>
+        </div>
     );
 };
 

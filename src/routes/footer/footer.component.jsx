@@ -7,7 +7,7 @@ const currentYear = currentDate.getFullYear();
 
 function Footer() {
     return (
-        <footer>
+        <div className="footer">
             <div className="footer-left">
                 <p>&#169; {currentYear} Champa Kitchen</p>
                 <p>Created by TMG 2022</p>
@@ -20,7 +20,7 @@ function Footer() {
                 <p>Saturday: 11:30AM – 9:30PM</p>
                 <p>Sunday: 3:30PM – 8:00PM</p>
             </div>
-        </footer>
+        </div>
     )
 }
 
