@@ -1,6 +1,31 @@
-@media screen and (max-width: 480px) {
-    nav {
-        height: var(--nav_height);
+.navbar {
+    background: #3d3d3d;
+    color: white;
+    height: 60px;
+    display: flex;
+    width: 100%;
+
+    .logo-image {
+        padding-left: 20px;
+        justify-self: start;
+        height: 55px;
+        width: 70px;
+    }
+
+    .nav-menu-container {
+        padding: 20px;
+        width: calc(100% - 70px);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .nav-link {
+            padding-left: 20px;
+            justify-content: space-around;
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 

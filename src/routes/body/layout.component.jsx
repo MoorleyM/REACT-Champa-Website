@@ -1,17 +1,17 @@
 import { Outlet } from 'react-router-dom'
 
+import './layout.styles.scss'
+
 import Footer from '../footer/footer.component';
 import Navbar from '../navigation/navbar.component';
 
-import './body.styles.scss'
-
-const Body = () => {
+const Layout = () => {
     return (
-        <div className='body-container'>
-            <nav className='navbar'>
+        <div>
+            <nav className='navbar-container'>
                 <Navbar />
             </nav>
-            <div className='body'>
+            <div className='body-container'>
                 <Outlet />
             </div>
             <footer className='footer-container'>
@@ -20,4 +20,4 @@ const Body = () => {
         </div>
     );
 };
-export default Body;
+export default Layout;

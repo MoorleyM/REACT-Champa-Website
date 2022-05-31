@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer">
             <div className="footer-left">
                 <p>&#169; {currentYear} Champa Kitchen</p>
-                <p>Created by TMG 2022</p>
+                <p>Created By TMG</p>
             </div>
             <div className="footer-right">
                 <p>Monday: CLOSED</p>
