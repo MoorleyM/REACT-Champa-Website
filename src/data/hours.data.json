@@ -1,0 +1,46 @@
+{
+    "Hours": {
+        "Monday": [
+            {
+                "Lunch": "Closed",
+                "Dinner": "Closed"
+            }
+        ],
+        "Tuesday": [
+            {
+                "Lunch": "11:30AM - 2:30PM",
+                "Dinner": "4:00PM - 9:00PM"
+            }
+        ],
+        "Wednesday": [
+            {
+                "Lunch": "11:30AM - 2:30PM",
+                "Dinner": "4:00PM - 9:00PM"
+            }
+        ],
+        "Thursday": [
+            {
+                "Lunch": "11:30AM - 2:30PM",
+                "Dinner": "4:00PM - 9:00PM"
+            }
+        ],
+        "Friday": [
+            {
+                "Lunch": "11:30AM - 2:30PM",
+                "Dinner": "4:00PM - 9:00PM"
+            }
+        ],
+        "Saturday": [
+            {
+                "Open": "11:30AM",
+                "Closed": "9:30PM"
+            }
+        ],
+        "Sunday": [
+            {
+                "Open": "3:30PM",
+                "Closed": "8:00PM"
+            }
+        ]
+    }
+}
