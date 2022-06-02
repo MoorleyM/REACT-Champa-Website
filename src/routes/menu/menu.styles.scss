@@ -1,3 +1,11 @@
+.menus-card-container {
+    display: block;
+}
+
+.menus-card-container.clicked {
+    display: none;
+}
+
 .menu-info {
     display: flex;
     flex-direction: column;

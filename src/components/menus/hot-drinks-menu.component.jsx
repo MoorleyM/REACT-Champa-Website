@@ -1,15 +1,23 @@
-import { useContext } from 'react';
+import { 
+    React,
+    useContext,
+    useState
+} from 'react';
 
 import { MenuContext } from '../../context/menu.context';
 
 const HotDrinks = () => {
     const { hotDrinksMenu } = useContext(MenuContext)
+
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
     return (
         <div className='menus-container'>
-            <div className="menus-header">
+            <div className="menus-header" onClick={() => setClick(false)}>
                 <h1>Hot Drinks</h1>
             </div>
-            <div className='menus-card-container'>
+            <div onClick={handleClick} className={click ? 'menus-card-container clicked' : 'menus-card-container'}>
                 {hotDrinksMenu.map(({
                     item,
                     price,
