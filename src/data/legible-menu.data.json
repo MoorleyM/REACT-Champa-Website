@@ -299,6 +299,7 @@
                 "id": 38,
                 "item": "Chicken Noodle Soup",
                 "side": "rice noodle, beansprouts, Thai basil, Hot sauce and Hoisin sauce",
+                "ingredients": "Beef Balls",
                 "price": 9.50
             },
             {
@@ -462,6 +463,7 @@
             {
                 "id": 45,
                 "item": "Cashew Chicken",
+                "meat": "Chicken",
                 "ingredients": "onion, carrot, bell peppers, zucchini, broccoli, and mushroom in garlic soya sauce. Topped with cashew nut",
                 "price": "13.95"
             },
@@ -503,6 +505,7 @@
             {
                 "id": 47,
                 "item": "Stir-Fry Chicken in Mango Sauce",
+                "meat": "Chicken",
                 "ingredients": "onion, carrots, bell peppers, zucchini, broccoli, and mushroom. Top with Cashew nut",
                 "sauces": "Yellow curry sauce, homemade spicy peanut sauce, Garlic soya sauce, Thai sweet chili sauce, Homemade sweet & sour sauce, Orange sauce",
                 "price": 14.50
@@ -545,6 +548,7 @@
             {
                 "id": 49,
                 "item": "Crispy Chicken",
+                "meat": "Chicken",
                 "ingredients": "Chicken breasts fried in our special batter. Served over steam carrot, onion, beansprout, and broccoli",
                 "sauces": "Yellow curry sauce, homemade spicy peanut sauce, Garlic soya sauce, Thai sweet chili sauce, Homemade sweet & sour sauce, Orange sauce",
                 "price": 15.95
@@ -552,6 +556,7 @@
             {
                 "id": 50,
                 "item": "Crispy Chicken over Pan Fry Egg noodle",
+                "meat": "Chicken",
                 "ingredients": "Egg noodle pan fried with bell peppers, carrots, broccoli, onion, beansprout in homemade ginger/garlic soya sauce",
                 "sauces": "Yellow curry sauce, homemade spicy peanut sauce, Garlic soya sauce, Thai sweet chili sauce, Homemade sweet & sour sauce, Orange sauce",
                 "price": 18.95
@@ -559,6 +564,7 @@
             {
                 "id": 51,
                 "item": "Golden Crispy Roasted Duck",
+                "meat": "Duck",
                 "ingredients": "1/2 roasted duck boneless lightly glazed in our special batter. Served over steam carrots, onion, broccoli and beansprout",
                 "sauces": "Yellow curry sauce, homemade spicy peanut sauce, Garlic soya sauce, Thai sweet chili sauce, Homemade sweet & sour sauce, Orange sauce",
                 "price": 19.95
@@ -566,6 +572,7 @@
             {
                 "id": 52,
                 "item": "Golden Crispy Roasted Duck over Pan Fry Egg Noodle",
+                "meat": "Duck",
                 "ingredients": "Egg noodle pan fried with bell peppers, carrots, broccoli, onion, beansprout in homemade ginger/garlic soya sauce.",
                 "sauces": "Yellow curry sauce, homemade spicy peanut sauce, Garlic soya sauce, Thai sweet chili sauce, Homemade sweet & sour sauce, Orange sauce",
                 "price": 22.95
@@ -573,24 +580,28 @@
             {
                 "id": 53,
                 "item": "Champa Special Fry Rice",
+                "meat": "Shrimp and Chicken",
                 "ingredients": "Shrimp, chicken, peas, carrot, onion, egg, in homemade soya sauce. Top with fried onion",
                 "price": 14.95
             },
             {
                 "id": 54,
                 "item": "Tom Yum Fry Rice",
+                "meat": "Shrimp and Chicken",
                 "ingredients": "Shrimp, chicken, peas, carrots, onion, egg, pineapple, in tom yum sauce. Top with fried onion hint of spicy",
                 "price": 14.95
             },
             {
                 "id": 55,
                 "item": "Indonesian Fried Rice",
+                "meat": "Chicken",
                 "ingredients": "Peas, carrot, onion, in yellow curry spices sauce. Top with grilled satay chicken and fried onion. Peanut sauce on the side",
                 "price": 12.95
             },
             {
                 "id": 56,
                 "item": "Satay chicken w/ Steam Rice",
+                "meat": "Chicken",
                 "ingredients": "Served with side salad and homemade fish sauce. Drizzled with green onion",
                 "quantity": 2,
                 "price": 12.75
@@ -598,6 +609,7 @@
             {
                 "id": 57,
                 "item": "Beef Satay w/ Steam Rice",
+                "meat": "Beef",
                 "ingredients": "served with side salad and homemade fish sauce. Drizzled with green onion infused oil",
                 "quantity": 2,
                 "price": 12.75
@@ -605,6 +617,7 @@
             {
                 "id": 58,
                 "item": "Pork Satay w/ Steam Rice",
+                "meat": "Pork",
                 "ingredients": "served with side salad and homemade fish sauce. Drizzled with green onion infused oil",
                 "quantity": 2,
                 "price": 12.75
@@ -612,12 +625,14 @@
             {
                 "id": 59,
                 "item": "Grilled Pork Chop w/ Steam Rice",
+                "meat": "Pork",
                 "ingredients": "Seasoned tender pork chop with spices. Served with side salad and homemade fish sauce. Drizzled with green onion infused oil",
                 "price": 12.95
             },
             {
                 "id": 60,
                 "item": "Grilled Korean Style Short Ribs and Shrimp Satay",
+                "meat": "Beef",
                 "side": "Sticky Rice",
                 "ingredients": "Seasoned Korean style short ribs. Served with side salad and homemade fish sauce. Drizzled with green onion infused oil",
                 "price": 16.50
@@ -625,6 +640,7 @@
             {
                 "id": 61,
                 "item": "Salmon Cashew Nut in Black Bean Sauce",
+                "meat": "Salmon",
                 "ingredients": "Marinated salmon in egg, salt, black pepper, crushed cashew nut, over steam mix vegetables. Top with black bean sauce",
                 "price": 19.95
             }

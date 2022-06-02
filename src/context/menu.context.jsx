@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 
-import MENU from '../data/menu.data.json'
+import MENU from '../data/legible-menu.data.json'
 
 export const MenuContext = createContext({
     starterMenu: [],

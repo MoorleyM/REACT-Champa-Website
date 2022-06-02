@@ -1,5 +1,4 @@
 {
-    "Hours": {
         "Monday": [
             {
                 "Lunch": "Closed",
@@ -42,5 +41,5 @@
                 "Closed": "8:00PM"
             }
         ]
-    }
+    
 }
