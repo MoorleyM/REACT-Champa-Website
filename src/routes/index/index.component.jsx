@@ -1,7 +1,9 @@
+import './index.styles.scss'
+
 const Home = () => {
     return (
         <div className="body">
-            <h1>Index Page</h1>
+            <h1>Welcome To Champa Kitchen</h1>
         </div>
     );
 };
