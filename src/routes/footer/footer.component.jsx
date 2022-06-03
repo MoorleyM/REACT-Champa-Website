@@ -1,4 +1,7 @@
-import React from "react"; 
+import React from "react";
+
+import Facebook from '../../assets/social-pictures/Facebook.png'
+import Instagram from '../../assets/social-pictures/instagram.png'
 
 import './footer.styles.scss'
 
@@ -9,8 +12,18 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer-left">
-                <p>&#169; {currentYear} Champa Kitchen</p>
-                <p>Created By TMG</p>
+                <div className="footer-left-top">
+                    <a href='https://www.facebook.com/champakitchen.info' className="social-image">
+                        <img src={Facebook} alt='Facebook' />        
+                    </a>
+                    <a href='https://www.instagram.com/champakitchen.info/' className="social-image">
+                        <img src={Instagram} alt='Instagram' />        
+                    </a>
+                </div>
+                <div className="footer-left-bottom">
+                    <p>&#169; {currentYear} Champa Kitchen</p>
+                    <p>Created By TMG</p>
+                </div>
             </div>
             <div className="footer-right">
                 <p>Monday: CLOSED</p>
