@@ -15,8 +15,10 @@ const StarterMenu = () => {
 
     return (
         <div className='menus-container'>
-            <div className="menus-header" onClick={() => setClick(false)}>
-                <h1>Starter Menu</h1>
+            <div className="menus-header-container" onClick={() => setClick(true)}>
+                <div className='menus-header'>
+                    <h1>Starter Menu</h1>
+                </div>
             </div>
             <div onClick={handleClick} className={click ? 'menus-card-container clicked' : 'menus-card-container'}>
                 {starterMenu.map(({

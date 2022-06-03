@@ -15,7 +15,7 @@ const NoodleLoverMenu = () => {
 
     return (
         <div className='menus-container'>
-            <div className="menus-header" onClick={() => setClick(false)}>
+            <div className="menus-header" onClick={() => setClick(true)}>
                 <h1>Noodle Lovers Menu</h1>
             </div>
             <div onClick={handleClick} className={click ? 'menus-card-container clicked' : 'menus-card-container'}>
